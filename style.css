@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ background-color: black;
+  border-radius: 100px 0px 0px 0px;
+  padding-top: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-contact-us {
+ margin-left: 50px;
+  width: 20%;
+}
+
+.footer-contact-us img {
+  margin-bottom: 30px;
+  /* height: 40%;
+  width: 40%;
+ */
+}
+
+.footer-contact-us h3{
+  padding-bottom: 40px;
+  color: white;
+}
+.footer-contact-us p{
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer-links{
+  width: 30%;
+}
+
+.footer-links h3{
+  margin-bottom: 30px;
+  color: white;
+}
+
+.footer-links ul{
+    list-style: none;
+    
+
+}
+
+.footer-links li{
+  padding: 4px;
+}
+
+
+.footer-links li a{
+    text-decoration: none;
+    
+    color: white;
+}
+
+.footer-social{
+  margin-right: 240px;
+  width: 10%;
+}
+
+.footer-social h3{
+  font-size: 20px;
+  color: white;
+}
+
+.footer-social i{
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+
+}
+
+.footer-bottom {
+  text-align: center;
+  color: white;
+}
+
+@media screen {
+  
+}
